@@ -6,7 +6,7 @@ const MATCHES = {
   "🍟": "Can't wait for our next potcor date<3",
   "💌": "You're my crafty babyyy",
   "🩷": "Pink reminds me of you!",
-  "🍵": "I remember how much you like Hustle Ground's Matcha",
+  "🧩": "Lego Sunflower daw kasi yan HAHHAHA",
   "☕": "Wow mug from kkv? HAHHAHHA",
   "🥑": "Remember Avu?",
   "🌻": "You're my himawari:)",
@@ -43,7 +43,7 @@ const SONG = {
   file: "song.mp3",
   title: "KYGM",
   artist: "The Ridleys",
-  note: "This song reminds me of you."
+  note: "I excited for a future where I can just wake up the next morning and Kiss You Good Morning"
 };
 
 // ✏️ Reasons I love you (shown one at a time, in this order).
@@ -302,7 +302,7 @@ addEventListener("keydown",e=>{
 });
 
 // cake: decorate it, light the candle, blow it out
-const TOPS=["🍓","🌻","🩷","🌸","🍪","🍫","✨","🍃"];
+const TOPS=["🍓","🍒","🥭","🍫","🍬","🍭","🍪","🥜"];
 const cake=$("#cake"),tops=$("#tops"),tray=$("#tray");
 let pick=TOPS[0],placed=[],lit=false;
 TOPS.forEach(t=>{
@@ -404,7 +404,7 @@ $('#bq').onclick=e=>{
   const x=e.clientX||innerWidth/2,y=e.clientY||innerHeight/2;
   bouquets(x,y,22);setTimeout(()=>bouquets(x,y,14),180);
   taps++;
-  $('#fmsg').textContent=taps===1?'Click them':'Click them';
+  $('#fmsg').textContent=taps===1?'I love you!':'I love you!';
   $('#more').hidden=false;
 };
 $('#more').onclick=()=>{$('#flowers').hidden=true;$('#hero').hidden=false;scrollTo(0,0)};
