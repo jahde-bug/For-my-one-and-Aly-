@@ -717,10 +717,10 @@ body {
 .player {
   width: min(340px, 90vw);
   padding: 22px 22px 20px;
-  border: 3px solid var(--ink);
+  border: 3px solid #FFD6E4;
   border-radius: 28px;
-  background: var(--card);
-  color: var(--ink);
+  background: linear-gradient(180deg, #445B72, #243A4F);
+  color: #FFE3EC;
   box-shadow: 0 6px 0 rgba(0, 0, 0, .3);
   animation: rise .5s cubic-bezier(.3, 1.4, .5, 1);
 }
@@ -793,16 +793,16 @@ body {
   width: 64px;
   height: 64px;
   padding: 0;
-  border: 3px solid var(--ink);
+  border: 3px solid #FFD6E4;
   border-radius: 50%;
   background: var(--pink);
   color: #2F4A2B;
   cursor: pointer;
-  box-shadow: 0 5px 0 var(--ink);
+  box-shadow: 0 5px 0 #FFD6E4;
 }
 .playbtn:active {
   transform: translateY(4px);
-  box-shadow: 0 1px 0 var(--ink);
+  box-shadow: 0 1px 0 #FFD6E4;
 }
 .playbtn svg {
   width: 52%;
